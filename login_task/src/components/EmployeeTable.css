@@ -1,0 +1,51 @@
+/* EmployeeTable.css */
+
+
+  
+  .employee-table {
+    width: 100%; /* Ensure the table spans the full width */
+    border-collapse: collapse;
+    
+    
+  }
+  
+  .employee-table th, .employee-table td {
+    border:1px solid #0056b3;
+    padding: 8px;
+    text-align: left;
+    cursor: pointer;
+  }
+  
+  .employee-table th {
+    background-color: #f2f2f2;
+  }
+  
+  .employee-image {
+    width: 100px; /* Increased width */
+    height: 100px; /* Increased height */
+    object-fit: cover;
+    border-radius: 4px;
+  }
+  
+  .edit-btn, .delete-btn {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-right: 0.5rem;
+  }
+  
+  .edit-btn:hover {
+    background-color: #0056b3;
+  }
+  
+  .delete-btn {
+    background-color: #dc3545;
+  }
+  
+  .delete-btn:hover {
+    background-color: #c82333;
+  }
